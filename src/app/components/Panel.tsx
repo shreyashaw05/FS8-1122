@@ -33,7 +33,7 @@ const Panel = () => {
           className="rounded-xl object-cover shadow-lg"
         />
         <div className="absolute bottom-4 left-4 flex gap-2 z-10">
-            <p className='bg-zinc-950 rounded-xl p-2 flex items-center'>
+            <p className=' rounded-xl p-2 flex items-center'>
                 <Cctv className="w-4 h-4 mr-1 text-red-500" />
          {activeIncident ? activeIncident.cammera.name: "No Camera Selected"}
             </p>
