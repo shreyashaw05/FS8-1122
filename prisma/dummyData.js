@@ -158,5 +158,3 @@ export const SeedData = [
     ],
   }
 ];
-
-// TODO:Updathe teh thumbnial url 
