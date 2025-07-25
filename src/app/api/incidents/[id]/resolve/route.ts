@@ -1,11 +1,14 @@
 import { PrismaClient } from "@/generated/prisma"
-import { NextResponse, NextRequest } from "next/server"
+import { NextResponse } from "next/server"
 
 const prisma = new PrismaClient()
 
-export async function PATCH(req: NextRequest,{ params }:{params:{id:string}}) {
-    try {
-        const {id} = await params;
+export async function PATCH(
+  req: Request,
+  { params }: { params: Promise<{ id: string }> }
+) {
+  try {
+    const { id } = await params;
 
         const incident = await prisma.incident.findUnique({
             where:{id}
