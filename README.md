@@ -2,14 +2,14 @@
 
 A security camera timeline interface that displays events across multiple cameras with an interactive scrubber for time navigation.
 
-## 🚀 Tech Stack
+## Tech Stack
 
 - **Frontend Framework:** Next.js (App Router)
 - **Database:** NeonDB (PostgreSQL)
 - **ORM:** Prisma
 - **Deployment:** Vercel
 
-## ⏳ If I Had More Time...
+## If I Had More Time...
 
 I would have worked on the following enhancements:
 
