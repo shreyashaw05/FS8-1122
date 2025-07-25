@@ -22,7 +22,7 @@ const Panel = () => {
   }, [])
 
   return (
-    <div className="flex w-full flex-col lg:flex-row p-4 gap-6 h-[60vh]">
+    <div className="flex w-full flex-col lg:flex-row gap-6 ">
       
       {/* left panel */}
       <div className="w-full lg:w-[55%] relative min-h-[60vh]">
@@ -33,7 +33,7 @@ const Panel = () => {
           className="rounded-xl object-cover shadow-lg"
         />
         <div className="absolute bottom-4 left-4 flex gap-2 z-10">
-            <p className=' rounded-xl p-2 flex items-center'>
+            <p className=' bg-zinc-900 border-1 border-zinc-800 rounded-xl p-2 flex items-center'>
                 <Cctv className="w-4 h-4 mr-1 text-red-500" />
          {activeIncident ? activeIncident.cammera.name: "No Camera Selected"}
             </p>
